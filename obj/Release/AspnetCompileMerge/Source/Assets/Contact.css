@@ -1,0 +1,44 @@
+﻿body {
+    background: rgb(241,0,0);
+    background: radial-gradient(circle, rgba(241,0,0,0.22470238095238093) 0%, rgba(255,255,255,0) 30%, rgba(98,97,97,0.9389880952380952) 92%);
+}
+
+.heading {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.45719537815126055) 23%, rgba(48,48,48,1) 97%);
+}
+
+
+/* Add styles to 'label' selector */
+label {
+    font-size: 0.85em;
+    margin-left: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: darkgray;
+    width: 100px; /* Adjust the width as needed */
+    margin-right: 1px; /* Add some space between the label and the input field */
+    text-align: left; /* Align the text to the right within the label */
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:content-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+    /* Add styles to show 'focus' of selector */
+    input[type=text]:focus, input[type=email]:focus, textarea:focus {
+        border: 1px solid green;
+    }
+
+.form-control {
+    border-color: #555 !important; /* Dark gray color */
+}
+

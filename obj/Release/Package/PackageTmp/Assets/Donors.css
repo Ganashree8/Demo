@@ -1,0 +1,124 @@
+﻿
+.modalBackground {
+    background-color: black;
+    filter: alpha(opacity=90);
+    opacity: 0.8;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.modelPopup {
+    background-color: #ddd;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    height: auto;
+    max-height: 99%;
+    border-radius: 25px;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url('../Assets/Images/donors_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1; /* Adjust the opacity value as needed */
+    background-attachment:fixed;
+}
+
+
+
+/* Define animation keyframes */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Apply animation to panel */
+.panel-container {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(255,255,255);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(125,121,116,0.34234943977591037) 43%);
+    animation: fadeIn 2s ease-in-out; /* Apply animation with a duration of 2 seconds */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Faded shade for the border */
+    
+}
+
+.panelHeader {
+    font-size: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    
+}
+
+.panelContent {
+    font-size: 16px;
+    border: groove;
+    background-color: palevioletred;
+    padding: 10px;
+    overflow: auto; /* Add overflow property */
+}
+
+
+    /* Apply alternate row colors to GridView */
+    .panelContent table tr:nth-child(even) {
+        background-color: pink;
+    }
+
+    .panelContent table tr:nth-child(odd) {
+        background-color: lightpink; /* You can change this color as needed */
+    }
+
+
+    .panelContent table tr:nth-child(even):hover {
+        background-color: #ffcccc; /* Light pink background color on hover for even rows */
+    }
+
+    .panelContent table tr:nth-child(odd):hover {
+        background-color: #ff9999; /* Lighter pink background color on hover for odd rows */
+    }
+
+
+    /* Apply styles to the GridView */
+    .panelContent table {
+        border-collapse:collapse; /* Collapse borders to avoid spacing between cells */
+        width: 100%; /* Ensure the table fills the panel */
+    }
+
+    .panelContent th,
+    .panelContent td {
+        border: 1px solid #ccc; /* Add borders to table cells */
+        padding: 4px; /* Add padding to cells for spacing */
+        text-align: left; /* Align text to the left */
+    }
+
+
+.customButton {
+    background-color: #333; /* Button color */
+    color: #fff; /* Text color */
+    border:medium; /* Remove border */
+    padding: 8px 16px; /* Adjust padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+    .customButton:hover {
+        background-color: #0056b3; /* Darker color on hover */
+        transform: scale(1.05);
+    }
+
+
+

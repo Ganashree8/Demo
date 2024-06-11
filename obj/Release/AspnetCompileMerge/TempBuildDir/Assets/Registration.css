@@ -1,0 +1,102 @@
+﻿
+/* Style for textboxes */
+.heading {
+    color: darkred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(157,198,204);
+    background: radial-gradient(circle, rgba(157,198,204,0.21349789915966388) 0%, rgba(221,196,216,0.017419467787114895) 31%, rgba(242,242,242,0.3087359943977591) 31%, rgba(115,115,115,1) 100%);
+    position: relative;
+    border: double;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+    input[type="text"]:hover,
+    input[type="number"]:hover,
+    select:hover {
+        border-color: #333; /* Change border color on hover to dark */
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Add darker shadow on hover */
+    }
+
+.label {
+    color: darkslategray; /* Red color */
+    font-weight: bold;
+}
+
+/* Style for labels */
+label {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Style for buttons */
+#btnSubmit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+/* Style for error messages */
+.ErrorMessage {
+    color: red;
+}
+
+/* Style for panel */
+/* Style for panel */
+#panelAddNewDonor {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative; /* Ensure relative positioning for absolute positioning of background */
+}
+
+/* Style for background image */
+.image-container {
+    position: relative; /* Ensure relative positioning for absolute positioning of children */
+    background-image: url('../Assets/Images/Registration.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    min-height: 300px; /* Set a minimum height for the container */
+    border-block-color: darkred;
+    border: double;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.registerPage {
+    background: rgb(157,198,204);
+    background: radial-gradient(circle, rgba(157,198,204,0.21349789915966388) 0%, rgba(221,196,216,0.017419467787114895) 31%, rgba(242,242,242,0.3087359943977591) 31%, rgba(115,115,115,1) 100%);
+}
+
+    /* Ensure background remains fixed */
+
+
+<style >
+.error-message {
+    margin: 0;
+    padding: 0;
+    font-size: 90%;
+}
+
+</style >
+
+

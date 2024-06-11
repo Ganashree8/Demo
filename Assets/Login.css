@@ -1,0 +1,141 @@
+﻿
+/*gender*/
+/* Apply styles to the RadioButtonList */
+/* Apply styles to the RadioButtonList items */
+#gender label {
+    margin-right: 1000px; /* Add spacing between radio buttons */
+}
+
+/*
+.login-button
+    {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    }
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+#pnlLogin {
+    margin-top: 20px;
+}
+*/
+table {
+    width: 50%;
+    height: 100%;
+    width: 100%; /* Set width to fill the entire screen */
+    height: 100vh; /* Set height to fill the entire viewport height */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: normal; /* Center content vertically */
+    
+}
+
+td {
+    padding: 10px;
+}
+
+#UserNameTextBox,
+#PasswordTextBox {
+    width: 80%;
+    position:center;
+    padding: 10px;
+    border: 1px solid #ccc double;
+    border-radius: 5px;
+    box-sizing: border-box;
+}   
+
+
+#btnSubmit,
+#Button1{
+    background-color: lightgray;
+    color: black;
+    border: double;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+    #btnSubmit:hover,
+    #Button1:hover{
+        background-color: #218838;
+    }
+/* Styles for login page */
+
+body {
+    background-image: url('../Assets/Images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire viewport */    
+    overflow: hidden; /* Prevent scrolling */
+    
+}
+
+
+.username-label {
+    color: darkred; /* Red color */
+    font-weight: bold;
+}
+
+.password-label {
+    color: darkred; /* Blue color */
+    font-weight: bold;
+}
+
+.login-label {
+    align-items: normal;
+    color: darkred;
+    font-weight: bold;
+    text-underline-offset:auto;
+}
+
+.form-container, head {
+    width: 400px; /* Set the width to your desired value */
+    height: 300px; /* Set the height to your desired value */
+    padding-left: 50px; /* Add padding */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed; /* Position the container relative to the viewport */
+    top: 50%; /* Align the top edge of the container to the vertical center of the viewport */
+    left: 50%; /* Align the left edge of the container to the horizontal center of the viewport */
+    transform: translate(-50%, -50%) scale(0);  Move the container back by half of its own width and height and initially set the scale to 0 
+    border: double;
+    border-color:darkgray;
+    animation: zoomIn 0.8s forwards;  Apply the zoom-in animation 
+}
+
+@keyframes zoomIn {
+    from {
+        transform: translate(-50%, -50%) scale(0); /* Start with scale 0 */
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1); /* End with scale 1 */
+    }
+}
+
+
+#lblErrorMessage {
+    color: red;
+    font-weight: bold;
+    position: absolute; /* Position the error message label relative to its closest positioned ancestor */
+    bottom: 90px; /* Adjust the distance from the bottom as needed */
+    left: 0; /* Align it to the left side */
+    width: 100%; /* Make it span the full width of the container */
+    text-align: center; /* Center the text horizontally */
+   }
+
+   
+
+
+
+
+
